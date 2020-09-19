@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*
+Comments: 
+font-family: Verdana, Geneva, sans-serif;
+font-family: Georgia, serif;
+font-family: Consolas, monaco, monospace;
+font-family: Palatino, sans-serif;
+
+Colors: 
+Dusty: #96858F
+Overcast: #9099A2
+Paper: #D5D5D5
+Tan: E9E5E2
+
+CSS Selectors: 
+p{} --> html element selector
+#header{}   --> id selector
+.subtitle{} --> class selector
+padding: Top, Right, Bottom, Left;
+*/
+
+body{
+	text-align: center;
+}
+
+.hidden, .hide{
+	display: none;
+}
+.main_container{ width: 95%; max-width: 1200px; padding: 15px 35px;  color: #424242; text-align: left;  margin: 0 auto;}
+
+.label{
+	margin: 10px 10px;
+}
+
+.alert{
+	margin-top: 10px;
+}
+
+.right{
+	width: 100%;
+	text-align: right;
+}
+
+.error_msg, .query_msg, .query_result{
+/*float: left;
+width: 800px;
+height:auto;
+position: relative;
+font-family: Consolas, monaco, monospace;
+font-weight:bold; 
+font-size:12px;
+padding:10px 10px 10px 10px;
+background-color: #96858F;
+color:black;*/
+margin-top: 20px;
+padding: auto;
+}
+
+.query{
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5
+	border-radius: 3px;
+	margin:8px auto;
+	padding: 10px;
+}
+
+.result{
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	border-radius: 3px;
+	margin:8px auto;
+	padding: 10px;
+}
+.query_result, .drilldown_result{
+	margin: 10px auto;
+}
+
+.drilldown_result{
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #fcf8e3;
+}
+
+.top-btn, .login-btn{
+	width: 100%;
+	margin: 10px auto;
+}
+
+.oneline{
+	width: 100%;
+	display: inline-block;
+}
+
+form[name="addindividual_form"],form[name="addbusiness_form"],form[name="addvehicle_form"], form[name="saleorder_form"],form[name="add_recall_form"],form[name="find_vendor_form"],form[name="add_vendor_form"],form[name="add_repair_form"], form[name="monthly_sale_form"] {
+	display: none;;
+}
+
+.modal form{
+	margin: 20px;
+}
+
+.table, .table-responsive{
+	margin:auto;
+}
+
+.modal{ display:none; width:60%;padding: 25px; text-align: center;}
+
+.modal button, .close{
+	margin-top: 25px;
+	font-size: 12px;
+	border: 1px solid grey;
+	font-color: black;
+}
